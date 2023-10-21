@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: demo
+    run: demo
   name: demo
 spec:
   replicas: 2
