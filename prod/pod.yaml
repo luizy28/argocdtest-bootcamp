@@ -18,7 +18,7 @@ spec:
         app: demo
     spec:
       containers:
-        - image: mylandmarktech/spring-boot-mongo:latest
+        - image: mylandmarktech/spring-boot-mongo1:latest
           name: kubernetes
           resources: {}
 status: {}
