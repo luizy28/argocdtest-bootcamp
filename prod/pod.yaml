@@ -6,7 +6,7 @@ metadata:
     run: demo
   name: demo
 spec:
-  replicas: 10
+  replicas: 6
   selector:
     matchLabels:
       app: demo
@@ -18,7 +18,7 @@ spec:
         app: demo
     spec:
       containers:
-        - image: mylandmarktech/spring-boot-mongo1:latest
+        - image: mylandmarktech/spring-boot-mongo:latest
           name: kubernetes
           resources: {}
 status: {}
